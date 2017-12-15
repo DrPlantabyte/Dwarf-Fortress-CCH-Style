@@ -1,0 +1,7 @@
+# ignore lock files
+# Open/Libre Office
+.~lock.*
+# MS Office
+~$*
+# gedit and notepad++
+*~
