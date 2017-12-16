@@ -1,7 +1,13 @@
-# ignore lock files
-# Open/Libre Office
-.~lock.*
-# MS Office
-~$*
-# gedit and notepad++
-*~
+# ignore everything except certain files
+/*
+!.gitignore
+!dfhack.init
+!LICENSE.md
+
+# git's not syntax is either stupid or a hack-job
+!data
+data/*
+!data/init
+data/init/*
+!/data/init/*.txt
+
