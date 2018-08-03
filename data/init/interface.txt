@@ -41,11 +41,7 @@
 [SYM:0:Page Up]
 
 
- ### DOWN ### 
-[BIND:CURSOR_DOWN_FAST:REPEAT_FAST]
-[SYM:1:2]
-[SYM:1:Numpad 2]
-[SYM:1:Down]
+## Z ##
 
 [BIND:CURSOR_DOWN_Z:REPEAT_SLOW]
 [KEY:>]
@@ -53,6 +49,20 @@
 [BIND:CURSOR_DOWN_Z_AUX:REPEAT_SLOW]
 [SYM:2:5]
 [SYM:2:Numpad 5]
+
+[BIND:CURSOR_UP_Z:REPEAT_SLOW]
+[KEY:<]
+
+[BIND:CURSOR_UP_Z_AUX:REPEAT_SLOW]
+[SYM:1:5]
+[SYM:1:Numpad 5]
+
+
+ ### DOWN ### 
+[BIND:CURSOR_DOWN_FAST:REPEAT_FAST]
+[SYM:1:2]
+[SYM:1:Numpad 2]
+[SYM:1:Down]
 
 
  ### DOWNLEFT ### 
@@ -87,13 +97,6 @@
 [SYM:1:8]
 [SYM:1:Numpad 8]
 [SYM:1:Up]
-
-[BIND:CURSOR_UP_Z:REPEAT_SLOW]
-[KEY:<]
-
-[BIND:CURSOR_UP_Z_AUX:REPEAT_SLOW]
-[SYM:1:5]
-[SYM:1:Numpad 5]
 
 
  ### UPLEFT ### 
