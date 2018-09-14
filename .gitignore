@@ -1,7 +1,7 @@
 # ignore everything except certain files
 /*
 !.gitignore
-!dfhack.init
+!*.init
 !LICENSE.md
 
 # git's not syntax is either stupid or a hack-job

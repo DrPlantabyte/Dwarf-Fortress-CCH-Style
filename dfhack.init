@@ -30,9 +30,6 @@ tweak import-priority-category
 # Fixes a crash in the work order contition material list (bug 9905).
 tweak condition-material
 
-# Adds an option to clear currently-bound hotkeys
-tweak hotkey-clear
-
 # Allows lowercase letters in embark profile names, and allows exiting the name prompt without saving
 tweak embark-profile-name
 
@@ -79,9 +76,7 @@ enable \
  zone \
  stocks \
  stockpiles \
- showmood \
- dwarfvet\
- seedwatch
+ dwarfvet
 
 #end a line with a backslash to make it continue to the next line. The \ is deleted for the final command.
 # Multiline commands are ONLY supported for scripts like dfhack.init. You cannot do multiline command manually on the DFHack console.
@@ -95,8 +90,6 @@ embark-tools enable sticky sand mouse
 mousequery track enable
 mousequery live enable
 
-# commands
-seedwatch all 40
 
 ###########
 # Scripts #
@@ -281,4 +274,6 @@ keybinding add Alt-Shift-P@dwarfmode/LookAround gui/pathable
 ##############################
 
 # Run commands in this file when a world loads
-sc-script add SC_WORLD_LOADED onLoad.init-example
+## NOTE: onLoad*.init and onUnload*.init autromatically run on fortress load/quit
+#sc-script add SC_WORLD_LOADED onLoad.init
+#sc-script add SC_WORLD_UNLOADED onUnload.init
