@@ -277,3 +277,5 @@ keybinding add Alt-Shift-P@dwarfmode/LookAround gui/pathable
 ## NOTE: onLoad*.init and onUnload*.init autromatically run on fortress load/quit
 #sc-script add SC_WORLD_LOADED onLoad.init
 #sc-script add SC_WORLD_UNLOADED onUnload.init
+sc-script add SC_MAP_LOADED mapLoad.init
+sc-script add SC_MAP_UNLOADED mapUnload.init
