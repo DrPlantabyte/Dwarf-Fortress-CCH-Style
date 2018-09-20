@@ -9,5 +9,10 @@
 data/*
 !data/init
 data/init/*
-!/data/init/*.txt
+!/data/init/colors.txt
+!/data/init/d_init.txt
+!/data/init/embark_profiles.txt
+!/data/init/init.txt
+!/data/init/interface.txt
+!/data/init/world_gen.txt
 
