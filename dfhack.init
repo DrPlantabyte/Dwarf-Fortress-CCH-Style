@@ -91,6 +91,14 @@ mousequery track enable
 mousequery live enable
 
 
+##################
+# External Tools #
+##################
+
+# allow Armok Vision (and other tools)
+enable remotefortressreader
+
+
 ###########
 # Scripts #
 ###########
