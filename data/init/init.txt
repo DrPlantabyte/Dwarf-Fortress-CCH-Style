@@ -25,8 +25,9 @@ This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or P
 This is the size and font for windowed mode.  Changing to the 800x600 font might make you happier.
 If set below 256x256 it specifies the grid size instead, with a minimum of 80x25.
 
-[WINDOWEDX:150]
-[WINDOWEDY:75]
+Note: right side-bar is 31 characters wide (including frame, not including the divider)
+[WINDOWEDX:84]
+[WINDOWEDY:56]
 [FONT:curses_640x300.png]
 
 You may disable window resizing if you wish.
@@ -45,13 +46,13 @@ If this is set to YES, the tiles will not be stretched, but rather the game view
 
 Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of July 2018, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
 
-[GRAPHICS:NO]
-[GRAPHICS_WINDOWEDX:0]
-[GRAPHICS_WINDOWEDY:0]
-[GRAPHICS_FONT:curses_square_16x16.png]
+[GRAPHICS:YES]
+[GRAPHICS_WINDOWEDX:84]
+[GRAPHICS_WINDOWEDY:56]
+[GRAPHICS_FONT:curses_800x600.png]
 [GRAPHICS_FULLSCREENX:0]
 [GRAPHICS_FULLSCREENY:0]
-[GRAPHICS_FULLFONT:curses_square_16x16.png]
+[GRAPHICS_FULLFONT:curses_800x600.png]
 [GRAPHICS_BLACK_SPACE:YES]
 
 These settings can have a significant impact on frame rate, especially for people that have slow frame rates on the title screen.  Available modes are 2D, 2DSW, 2DASYNC, STANDARD, PARTIAL:<number>, ACCUM_BUFFER, FRAME_BUFFER and VBO. The number after PARTIAL refers to how many frames it will redo a printed tile before skipping it, so you might try increasing it a bit if you have flickering when PARTIAL is set.  Please note that any of these combinations might cause frame rates to drop significantly or cause unpleasant side effects like flickering.

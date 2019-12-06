@@ -15,4 +15,5 @@ data/init/*
 !/data/init/init.txt
 !/data/init/interface.txt
 !/data/init/world_gen.txt
-
+!data/art
+data/art/*!data/art/Haowan_Curses_1440x450.png
