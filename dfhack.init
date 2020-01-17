@@ -83,8 +83,6 @@ enable \
 # You cannot extend a commented line.
 # You can comment out the extension of a line.
 
-# enable mouse controls and sand indicator in embark screen
-embark-tools enable sticky sand mouse
 
 # mousequery settings
 mousequery track enable
